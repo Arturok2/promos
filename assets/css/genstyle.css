@@ -1,0 +1,19 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+.img-center {
+  margin: 0px auto;
+}
+.bg-c-blue {
+  background-color: #183862;
+}
+.bg-head {
+  background-color: white;
+}
+.bg-control {
+  background-color: #555a68b0;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+}
