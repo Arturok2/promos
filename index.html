@@ -37,10 +37,10 @@
     document.addEventListener('DOMContentLoaded',function(){
       const arrayPromos = ['PROMO_01.jpg','PROMO_02.jpg','PROMO_03.jpg','PROMO_04.jpg','PROMO_05.jpg'];
       const uploadImages = document.querySelector('#promotionList');
-      var divC = document.createElement("div");
-      divC.classList.add("carousel-item");
-
+      
       arrayPromos.forEach(itemimage => {
+        var divC = document.createElement("div");
+        divC.classList.add("carousel-item");
         let img = document.createElement("img");
         divC.classList.add("d-block", "img-center", "img-fluid");
         divC.setAttribute("src","assets/images/promos/"+itemimage);
