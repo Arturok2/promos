@@ -40,10 +40,10 @@
       
       arrayPromos.forEach(itemimage => {
         var divC = document.createElement("div");
-        divC.classList.add("carousel-item");
         let img = document.createElement("img");
-        divC.classList.add("d-block", "img-center", "img-fluid");
-        divC.setAttribute("src","assets/images/promos/"+itemimage);
+        divC.classList.add("carousel-item");
+        img.classList.add("d-block", "img-center", "img-fluid");
+        img.setAttribute("src","assets/images/promos/"+itemimage);
         divC.append(img);
         uploadImages.append(divC);
       });
